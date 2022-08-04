@@ -10,6 +10,7 @@ Used to link mysql database to access database using ODBC
 
 ### 3. Sublime Text
 Text editor for editing git commit messages (Must have this feature enabled during installation)
+Text editor for HTML and PHP files
 
 ### 4. Git
 For project cloning/pulling

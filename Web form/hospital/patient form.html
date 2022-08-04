@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Patient Form</title>
+	<style type="text/css">
+		body{
+			background-color: rgba(134, 122, 133, 0.7);
+			padding: 10%;
+		}
+		/*.horizontal{
+			border: solid;
+		}*/
+		.horizontal .right{
+			float: right;
+			width: 50%;
+		}
+		.horizontal .left{
+			float: left;
+			width: 50%;
+		}
+		/*form{
+			border: solid;
+		}*/
+	</style>
+</head>
+<body>
+	<form class="" action="patient.php" method="POST">
+		<span><b>Patient identifying information</b></span>
+		<div class="">
+			<span>Last Name:<input type="text" name="last_name" />First Name<input type="text" name="first_name" />Middle Initial<input type="text" name="second_name" /></span>Date:<input type="date" name="date" />
+			<div>Sex<input type="text" name="sex">Age<input type="text" name="age" />Race<input type="text" name="race" />Hispanic or Latino:<input type="text" name="origin"></div>
+			<div class="horizontal">
+				<div class="left">
+					<b><label>Faciltiy <i>(if Hospitalized)</i></label></b>
+					<div>Name:<input type="text" name="hspt_name"></div>
+					<div>City:<input type="text" name="hspt_city"></div>
+					<div>County:<input type="text" name="hspt_county"></div>
+					<div>State:<input type="text" name="hspt_state"><span>Phone Number:<input type="text" name="hspt_phone"></span></div>
+					<div>Medical Record Number:<input type="text" name="hspt_med_record"></div>
+					<div><input type="submit" name="submit" /></div>
+				</div>
+			</div>
+			<div class="horizontal">
+				<div class="right">
+					<b><label>Present Address</label></b>
+					<div>Facility Name (if applicable):<input type="text" name="facility"></div>
+					<div>Street:<input type="text" name="p_street"></div>
+					<div>City:<input type="text" name="p_city"></div>
+					<div>County:<input type="text" name="p_county"><span>State<input type="text" name="p_state"></span></div>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

@@ -1,29 +1,25 @@
 # Internship Assignment
 ## Software Pre-requisites
 ### 1. MS Access LTSC
-Used for creating 2 tables, relationships and patient form
-Used to link mysql database to access database using ODBC
+Used for creating 2 tables, relationships and patient form. Used to link mysql database to access database using ODBC.
 
 ### 2. MySql version 8
-Used to create one table
-Used to link mysql database to access database using ODBC
+Used to create one table. Used to link mysql database to access database using ODBC.
 
 ### 3. Sublime Text
-Text editor for editing git commit messages (Must have this feature enabled during installation)
-Text editor for HTML and PHP files
+Text editor for editing git commit messages (Must have this feature enabled during installation). Text editor for HTML and PHP files.
 
 ### 4. Git
-For project cloning/pulling
+For project cloning/pulling.
 
 ### 5. MS Word LTSC
-Used to open the data dictonary
+Used to open the data dictonary.
 
-### 6. Visual Studio 17.2.6
-Used to organise and push the repo to GitHub
+### 6. Visual Studio 17.2.6/17+
+Used to organise and push the repo to GitHub.
 
 ###7. Xampp Control panel
-Must have Apache installed with it to run php file
-
+Must have Apache installed with it to run php file.
 
 
 ## Required

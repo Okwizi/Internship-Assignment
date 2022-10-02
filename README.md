@@ -18,7 +18,7 @@ Used to open the data dictonary.
 ### 6. Visual Studio 17.2.6/17+
 Used to organise and push the repo to GitHub.
 
-###7. Xampp Control panel
+### 7. Xampp Control panel
 Must have Apache installed with it to run php file.
 
 
